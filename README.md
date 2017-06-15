@@ -38,3 +38,6 @@ Now that `mypkg/generated_data` is present:
 
 Clean the directory, and run other variations of `sdist` and `bdist_wheel` (as
 mentioned above) and observe that the problem does not manifest.
+
+## Workarounds that do *not* work
+- Hooking `build_py` instead of `build`
