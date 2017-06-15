@@ -3,6 +3,9 @@ for the following issues:
 - https://github.com/JonathonReinhart/scuba/issues/77
 - https://github.com/JonathonReinhart/staticx/issues/22
 
+## Open issues
+- https://github.com/pypa/setuptools/issues/1064
+
 ## Problem statement
 
 **When `python setup.py sdist bdist_wheel` is invoked from a clean starting
