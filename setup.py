@@ -29,7 +29,10 @@ setup(
             'generated_data',
         ],
     },
+
+    ### THIS FIXES THE PROBLEM >:-O
     include_package_data=True,
+
     zip_safe = False,   # http://stackoverflow.com/q/24642788/119527
     cmdclass = {
         'build_data':   build_data,
